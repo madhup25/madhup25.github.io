@@ -8,14 +8,21 @@
 
 .leftdiv {
 	position: sticky;
-	background-color: #9099a2;
+	background-color: #b6a19e;
+	/*background-color: #77c9d4;*/  /*3*/
+	/*background-color: #000;*/  /*2*/
+	/*background-color: #233237;*/  /*1*/
 	width: 100%;
+	color: #fff;
 }
 
 .rightdiv {
 	overflow: auto;
 	height: 100vh;
-	background-color: #6d7993;
+	background-color: #6c648b;
+	/*background-color: #984b43;*/  /*1*/
+	/*background-color: #4ec5c1;*/  /*2*/
+	/*background-color: #984b43;*/  /*3*/
 	width: 100%;
 }
 
@@ -45,7 +52,6 @@ sub {
 	height: 340px;
 	margin-top: 10px;
 }
-
 
 
 
