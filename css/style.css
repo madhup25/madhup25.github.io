@@ -69,7 +69,7 @@ sub {
 
 @media (max-width: 575px) {
 	.link {
-		margin-right: 15px;
+		margin-right: 10px;
 	}
 	.br {
 		display: none;
