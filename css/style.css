@@ -41,6 +41,11 @@ h1 {
 	font-weight: 500;
 }
 
+.link {
+	color: #000;
+	margin-right: 10px;
+}
+
 sub {
 	top: -5px;
 	font-size: 0.8em;
@@ -48,8 +53,8 @@ sub {
 }
 
 .img {
-	width: 340px;
-	height: 340px;
+	width: 300px;
+	height: 300px;
 	margin-top: 10px;
 }
 
@@ -63,11 +68,18 @@ sub {
 }
 
 @media (max-width: 575px) {
-	.icons {
+	.link {
 		margin-right: 15px;
 	}
 	.br {
 		display: none;
+	}
+	.leftdiv {
+		position: none;
+	}
+	.rightdiv {
+		overflow: visible;
+		height: 100%;
 	}
 }
 
@@ -76,3 +88,4 @@ sub {
 		display: none;
 	}
 }
+
