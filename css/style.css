@@ -1,0 +1,113 @@
+* {
+	box-sizing: border-box;
+}
+
+.container-h {
+	height: 100vh;
+}
+
+.leftdiv {
+	position: sticky;
+	background-color: #192231;
+	/*background-color: #b6a19e;*/  /*4*/
+	/*background-color: #77c9d4;*/  /*3*/
+	/*background-color: #000;*/  /*2*/
+	/*background-color: #233237;*/  /*1*/
+	width: 100%;
+	color: #fff;
+}
+
+.rightdiv {
+	overflow: auto;
+	height: 100vh;
+	background-color: #98878f;
+	/*background-color: #984b43;*/  /*1*/
+	/*background-color: #4ec5c1;*/  /*2*/
+	/*background-color: #984b43;*/  /*3*/
+	/*background-color: #6c648b;*/   /*4*/
+	width: 100%;
+}
+
+h1 {
+	margin-top: 10px;
+}
+
+.h1Size {
+	font-size: 2.2em;
+	font-weight: 500;
+	letter-spacing: 2px;
+}
+
+.h2Size {
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
+.link {
+	color: #98878f;
+	margin-right: 10px;
+}
+
+sub {
+	top: -5px;
+	font-size: 0.8em;
+	font-style: italic;
+}
+
+.img {
+	width: 300px;
+	height: 300px;
+	margin-top: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+	.img {
+		width: 150px;
+		height: 150px;
+	}
+}
+
+@media (max-width: 575px) {
+	.link {
+		margin-right: 10px;
+	}
+	.br {
+		display: none;
+	}
+	.leftdiv {
+		position: none;
+	}
+	.rightdiv {
+		overflow: visible;
+		height: 100%;
+	}
+}
+
+@media (min-width: 640px) {
+	.br {
+		display: none;
+	}
+}
+
+
+::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
