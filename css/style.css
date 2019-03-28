@@ -64,7 +64,7 @@ sub {
 	margin-top: 10px;
 }
 
-@media (min-height: 610px) {
+@media (max-height: 620px) {
 	.rightdiv {
 		height: 100%;
 	}
