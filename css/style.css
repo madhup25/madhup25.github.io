@@ -20,7 +20,8 @@
 
 .rightdiv {
 	overflow: auto;
-	height: 100vh;
+	/*height: 100vh;*/
+	height: 100%;
 	background-color: #98878f;
 	/*background-color: #984b43;*/  /*1*/
 	/*background-color: #4ec5c1;*/  /*2*/
