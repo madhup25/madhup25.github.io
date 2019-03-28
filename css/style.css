@@ -71,7 +71,7 @@ sub {
 	}
 	.rightdiv {
 		overflow: visible;
-		height: 100%;
+		height: 100vh;
 	}
 }
 
@@ -87,7 +87,7 @@ sub {
 	}
 	.rightdiv {
 		overflow: visible;
-		height: 100%;
+		height: 100vh;
 	}
 }
 
