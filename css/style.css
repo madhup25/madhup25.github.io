@@ -70,7 +70,7 @@ sub {
 		height: 150px;
 	}
 	.rightdiv {
-/* 		overflow: visible; */
+		overflow: visible;
 		height: 100%;
 	}
 }
