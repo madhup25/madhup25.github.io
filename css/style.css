@@ -64,7 +64,11 @@ sub {
 	margin-top: 10px;
 }
 
-
+@media (min-height: 610px) {
+	.rightdiv {
+		height: 100%;
+	}
+}
 @media (min-width: 769px) and (max-width: 991px) {
 	.img {
 		width: 200px;
