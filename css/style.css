@@ -69,6 +69,10 @@ sub {
 		width: 150px;
 		height: 150px;
 	}
+	.rightdiv {
+/* 		overflow: visible; */
+		height: 100%;
+	}
 }
 
 @media (max-width: 575px) {
