@@ -9,7 +9,7 @@
 
 .leftdiv {
 	position: sticky;
-	overflow: auto;
+/* 	overflow: auto; */
 /* 	height: 100vh; */
 	background-color: #192231;
 	/*background-color: #b6a19e;*/  /*4*/
