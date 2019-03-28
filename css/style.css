@@ -65,16 +65,21 @@ sub {
 }
 
 
-
+@media (max-width: 992px) {
+	.img {
+		width: 200px;
+		height: 200px;
+	}
+}
 @media (max-width: 768px) {
 	.img {
 		width: 150px;
 		height: 150px;
 	}
-	.rightdiv {
+/* 	.rightdiv {
 		overflow: auto;
 		height: 100vh;
-	}
+	} */
 }
 
 @media (max-width: 575px) {
@@ -98,12 +103,7 @@ sub {
 		display: none;
 	}
 }
-@media (max-width: 992) {
-	.img {
-		width: 200px;
-		height: 200px;
-	}
-}
+
 
 ::-webkit-scrollbar-track
 {
