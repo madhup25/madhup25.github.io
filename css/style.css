@@ -65,7 +65,7 @@ sub {
 }
 
 
-@media (max-width: 992px) {
+@media (min-width: 769px) and (max-width: 991px) {
 	.img {
 		width: 200px;
 		height: 200px;
